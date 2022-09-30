@@ -15,6 +15,6 @@ function return_normal()
 {
   for (var i=0; i<bold_Items.length; i++) 
   {
-       bold_Items[i].style.color = "black";
+       bold_Items[i].style.color = "red";
   }
 }

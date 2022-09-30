@@ -3,22 +3,18 @@
 <head> 
 <meta charset=utf-8 /> 
 <title>Return first and last name from a form - w3resource</title> 
-  <!-- <script src="script.js"></script> -->
+  <script src="name.js"></script>
 </head>
 <body>
-<form id="form1" onsubmit="getFormvalue()"> First name: <input type="text" name="fname" value="David"><br>
-Last name: <input type="text" name="lname" value="Beckham"><br> 
-<input type="submit" value="Submit"> </form> 
-<p id="out"></p>
-<script>
-  var x = document.getElementById["form1"];
-  let text = "";
-  for (let i = 0; i < x.length ;i++) {
-    if (x.elements[i].value!='Submit')
-    {  
-    text += x.elements[i].value + "<br>";
-  }}
-  document.getElementById("out").innerHTML = text;
-  </script>
+  First name:<br>
+  <input type="text" id="firstname" name="firstname">>
+  <br>
+  Last name:<br>
+  <input type="text" id="lastname"  name="lastname">
+  <br>
+  <input type="button" value="Send" onclick="MyFunction()">
+      <div id="here"></div>    
+      
+  <body>
 
 </body> </html>
