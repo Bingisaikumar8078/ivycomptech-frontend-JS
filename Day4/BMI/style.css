@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+button{
+    background-color: aquamarine;
+    outline: invert;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+
+}
+
+
+input {
+    /* width: 100%; */
+    padding: 5px 14px;
+    border: 2px solid #201f1d;
+    margin-bottom: 10px;
+    background-color:aqua;
+    outline: none;
+    color:tomato;   
+    font-size: 14px;
+}
